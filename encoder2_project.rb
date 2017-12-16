@@ -21,5 +21,38 @@ code_type = gets.chomp
             #helps keep track of the postion of the loop
         	counter = counter + 1
         end
+    #defines letters in hash1 snd there corresponding letters
+    def letter_letter(hash1, letter)
+      #each letter and corresponding letter equals 26 letters
+      if letter_letter == 26
+        #slecting a letter and corresponding to replace orginal letter
+        then code_letter_letter == 26
+        # taking origional letter dividing by the 26 to offset the letter
+      elsif 
+        code_letter_letter =(letter_letter + letter_offset)%26
+
+      end
+      # to adjust the letter if the letter is 0
+    if coded_letter_letter == 0 
+
+      then coded_letter_letter == 26
+
+    end
+      #This will invert the letters in hash1 and create hash2
+      hash2 = hash1.invert
+      #to encode the letters from hash2
+      encode_letter = hash2[code_letter_letter]
+      #prints the encoded letters
+      print letter, " ", encode_letter, " "
+
+    end
+
+        
+
+
+
+
+
+
 
        
